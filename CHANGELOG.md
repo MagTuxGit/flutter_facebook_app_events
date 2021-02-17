@@ -1,4 +1,30 @@
+## 0.9.0
+
+- Updating iOS deployment target to `9.0` as described in [issue #74](https://github.com/oddbit/flutter_facebook_app_events/issues/74)
+
+## 0.8.2
+
+- Upgrading FBSDKCoreKit to 8.2.0 as described in [issue #56](https://github.com/oddbit/flutter_facebook_app_events/issues/56) 
+and closed in [PR #65](https://github.com/oddbit/flutter_facebook_app_events/issues/56)
+
+## 0.8.1
+
+- Fixing missing Android imports
+
+## 0.8.0
+
+- Updating Facebook SDK version to 8.1.0
+- Adding `logInitiatedCheckout` event per request in [issue #55](https://github.com/oddbit/flutter_facebook_app_events/issues/55)
+- Adding anonymous id getter `getAnonymousId()`
+  - Android SDK: [`getAnonymousAppDeviceGUID`](https://developers.facebook.com/docs/reference/androidsdk/current/facebook/com/facebook/appevents/appeventslogger.html/)
+  - iOS SDK: [`anonymousID`](https://developers.facebook.com/docs/reference/iossdk/8.1.0/FBSDKCoreKit/classes/fbsdkappevents.html/)
+
+## 0.7.2
+
+Updating Android and iOS integration native code
+
 ## 0.7.1
+
 Refining documentation and code formatting.
 
 ## 0.7.0
