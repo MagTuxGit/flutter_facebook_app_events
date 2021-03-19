@@ -1,3 +1,12 @@
+## 0.11.0
+
+- Fixing `logViewContent` as described in [issue #73](https://github.com/oddbit/flutter_facebook_app_events/issues/73)
+- Bumping Facebook SDK core kit to 9.0.0 in [PR #85](https://github.com/oddbit/flutter_facebook_app_events/pull/85)
+
+## 0.10.0
+
+- Adding support for setAdvertiserTrackingEnabled solved in [PR #82](https://github.com/oddbit/flutter_facebook_app_events/pull/82)
+
 ## 0.9.0
 
 - Updating iOS deployment target to `9.0` as described in [issue #74](https://github.com/oddbit/flutter_facebook_app_events/issues/74)
